@@ -1,6 +1,7 @@
 # Personalized News Aggregator 📰
 
 A Django-based web application that delivers personalized news articles to users based on their preferences.
+Personalized News Aggregator and Recommendation System is a web-based application that delivers customized news feeds to users based on their selected interests and reading behavior. Built using Django and Python, the system fetches the latest news from multiple sources and applies simple recommendation logic to prioritize content relevant to the user. It also features an admin panel for content management and user administration, making it a scalable solution for personalized content delivery. The project aims to improve user engagement by minimizing information overload and providing meaningful, targeted news recommendations.
 
 ## How to Run the Project
 
@@ -29,28 +30,8 @@ A Django-based web application that delivers personalized news articles to users
    Open your browser and navigate to:  
    http://127.0.0.1:8000/
 
-## Admin Panel Access
-
-The admin interface is available at:  
-http://127.0.0.1:8000/admin/
-
-To access it, create a superuser by running:  
-python manage.py createsuperuser
-
 ## Features
 
 - Personalized news feed based on user interests
 - Admin panel for managing articles and users
 - Real-time news fetching from sources
-
-## License
-
-This project is licensed under the MIT License.
-
-## Contributions
-
-Feel free to fork the repository and submit pull requests to improve the project.
-
-## Contact
-
-For questions or suggestions, please open an issue on this repository.
